@@ -2,11 +2,12 @@ import projectone from "@/public/projectone.png";
 import projecttwo from "@/public/projecttwo.png";
 import projectthree from "@/public/projectthree.png";
 import projectfour from "@/public/projectfour.png";
-import projectfive from "@/public/projecttwo.png";
 import linkedin from "@/public/linkedin.png";
 import sms from "@/public/sms.png";
 import instagram from "@/public/instagram.png";
-import construction from "@/public/construction 1.png";
+import construction from "@/public/construction.png";
+import infrastructure from "@/public/infrastructure.png";
+import property from "@/public/property.png";
 
 export const navLinks = [
   {
@@ -42,14 +43,14 @@ export const businesslines = [
   },
   {
     id: "feature-2",
-    img: construction,
+    img: property,
     title: "Real Estate",
     content:
       "From conducting exhaustive market analyses and comprehensive feasibility studies to crafting visionary designs, orchestrating precise construction, and mastering property management, we navigate the labyrinthine landscape of real estate with finesse. Our mission is to ensure that every real estate endeavor, from inception to sustainable management, becomes a resounding success.",
   },
   {
     id: "feature-3",
-    img: construction,
+    img: infrastructure,
     title: "Construction",
     content:
       "In construction, Contracting Plus stands as a paragon of expertise. We transform architectural visions into tangible reality with meticulous planning and impeccable execution. Every structure we craft is a living testament to our unwavering commitment to quality and excellence. Our construction projects transcend the ordinary, serving as iconic landmarks that reflect our devotion to the craft of construction.",
