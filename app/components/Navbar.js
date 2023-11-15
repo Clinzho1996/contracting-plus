@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="w-full flex justify-between items-center xl:py-5 py-2 top-0 left-0 z-10 bg-white xl:px-20 lg:px-10 px-5">
-        <Link href='/' >
+        <Link href="/">
           <div className="">
             <Image
               src={logo}
@@ -27,10 +27,12 @@ const Navbar = () => {
 
         <nav className="sm:flex hidden">
           <ul className="flex xl:text-[18px] lg:text-base gap-8 font-bold font-Agency  ">
-            {navLinks.map((navlink, index) => {
+            {navLinks.map((navlink) => {
               return (
-                <li key={index}>
-                  <Link href={navlink.href} className="cursor-pointer">{navlink.title}</Link>
+                <li key={navlink.id}>
+                  <Link href={navlink.href} className="cursor-pointer">
+                    {navlink.title}
+                  </Link>
                 </li>
               );
             })}
@@ -59,9 +61,9 @@ const Navbar = () => {
               {navLinks.map((navlink) => {
                 return (
                   <li className="text-[16px] text-black mb-4" key={navlink.id}>
-                  <Link href={navlink.href} className="cursor-pointer">
-                    {navlink.title}
-            </Link>
+                    <Link href={navlink.href}>
+                      {navlink.title}
+                    </Link>
                   </li>
                 );
               })}
