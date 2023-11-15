@@ -30,9 +30,7 @@ const Navbar = () => {
             {navLinks.map((navlink) => {
               return (
                 <li key={navlink.id}>
-                  <Link href={navlink.href} className="cursor-pointer">
-                    {navlink.title}
-                  </Link>
+                  <Link href={navlink.href}>{navlink.title}</Link>
                 </li>
               );
             })}
@@ -61,9 +59,7 @@ const Navbar = () => {
               {navLinks.map((navlink) => {
                 return (
                   <li className="text-[16px] text-black mb-4" key={navlink.id}>
-                    <Link href={navlink.href}>
-                      {navlink.title}
-                    </Link>
+                    <Link href={navlink.href}>{navlink.title}</Link>
                   </li>
                 );
               })}
