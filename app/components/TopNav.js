@@ -17,7 +17,7 @@ const TopNav = () => {
         <div className="flex w-full">
           <div className="w-[25%]"></div>
           <div className="w-[30%] font-medium font-poppins text-sm">
-            <h5>info@contractingplus.com</h5>
+            <h5>info@contractingplusservices.com</h5>
           </div>
           <div className="w-[45%] text-[#FFF] font-medium font-poppins text-sm">
             <h5>
