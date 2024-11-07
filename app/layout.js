@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Constracting Plus Services",
+  title: "Contracting Plus Services",
   description: "Crafting Excellence,One Project at a time.",
 };
 
